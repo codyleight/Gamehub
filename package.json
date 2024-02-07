@@ -13,6 +13,11 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "dependencies": {
+    "client": "^0.0.1",
+    "dotenv": "^16.4.1",
+    "express": "^4.17.1"
+  },
   "devDependencies": {
     "concurrently": "^8.2.0"
   }
