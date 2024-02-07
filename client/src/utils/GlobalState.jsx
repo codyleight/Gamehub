@@ -13,7 +13,7 @@ const StoreProvider = ({ value = [], ...props }) => {
     currentCategory: '',
   });
 
-  return <Provider value={[state, dispatch]} {...props} />;
+  return <Provider className='' value={[state, dispatch]} {...props} />;
 };
 
 const useStoreContext = () => {

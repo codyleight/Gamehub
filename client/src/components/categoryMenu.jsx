@@ -43,7 +43,7 @@ function CategoryMenu() {
   };
 
   return (
-    <div>
+    <div className='text-center'>
       <h2>Choose a Game Genre:</h2>
       {categories.map((item) => (
         <button
