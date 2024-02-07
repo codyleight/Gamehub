@@ -1,4 +1,5 @@
 import CategoryMenu from "../components/categoryMenu";
+import ProductList from "../components/productList";
 
 
 const Home = () => {
@@ -7,6 +8,7 @@ const Home = () => {
     <div className="">
       <div className="">
       <CategoryMenu />
+      <ProductList />
       </div>
   
     </div>
