@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const MONGODB_URI = 'mongodb+srv://codylthomp:xxtrU4usqx5XqPtC@gameshub.m9dymoh.mongodb.net/Gameshub';
+const MONGODB_URI = 'mongodb+srv://codylthomp:xxtrU4usqx5XqPtC@gameshub.m9dymoh.mongodb.net/NewGame';
 
 mongoose.connect(MONGODB_URI, {
  
