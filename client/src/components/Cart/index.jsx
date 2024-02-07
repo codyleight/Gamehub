@@ -19,7 +19,9 @@ const Cart = () => {
 
 
   useEffect(() => {
+    console.log("I am here");
     if (data) {
+      console.log("Help me");
       stripePromise.then((res) => {
         res.redirectToCheckout({ sessionId: data.checkout.session });
       });
@@ -53,6 +55,7 @@ const Cart = () => {
 
 
   function submitCheckout() {
+    
     getCheckout({
       variables: {
         products: [...state.cart],
