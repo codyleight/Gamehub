@@ -5,7 +5,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #e71e1e;
 
   --shadow-color: #FF9E9E;
   --shadow-color-light: white;
@@ -19,7 +19,7 @@
 
 a {
   font-weight: 500;
-  color: rgb(1, 4, 54);
+  color: rgb(30, 39, 206);
   text-decoration: inherit;
 }
 a:hover {
@@ -28,15 +28,15 @@ a:hover {
 
 .font1{
  
-  font-size: larger;
-  font-variant: small-caps;
+  font-size: medium;
+
   
   
 }
 
 .imgedit{
   border-radius: 50px;
-  outline: #ffffff;
+  outline: #c00e0e;
   outline-style: double;
   outline-width: 10px;
 }
@@ -49,34 +49,26 @@ a:hover {
 }
 
 body {
-  font-family: "Archivo", sans-serif;
+  
  
-  background-color: #bee6db;
-  background: #159957;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to bottom, #155799, #159957);  /* Chrome 10-25, Safari 5.1-6 */
-background: rgb(130,45,209);
-background: linear-gradient(11deg, rgba(130,45,209,1) 1%, rgba(0,198,195,1) 75%, rgba(255,230,0,1) 100%);
-
+  background: rgb(255,230,0);
+  background: linear-gradient(13deg, rgba(255,230,0,1) 0%, rgba(130,45,209,1) 41%, rgba(1,79,106,1) 63%, rgba(20,1,38,1) 100%);
 }
 
 .navbar-toggler-icon{
-  color: #00ffd5;
+  color: #005043;
   background-color: #f1f1f1;
 }
 
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
-  color: #00ffd5;
+  color: #011310;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   
 }
 
-.bgpic{
-  background-image: url('/assets/BannerFinal.png');
-  
-  
-}
+
 
 .text{
   font-size: large;
@@ -112,7 +104,7 @@ h1 {
 
 h2{
   font-size:  1.3rem;
-  color: #07ff6e;
+  color: #ffffff;
 }
 
 span{
@@ -125,7 +117,7 @@ span{
 
 .nav1{
   border-radius: 5px;
-  background: #f52727;
+  background: #116415;
   
 }
 
@@ -179,18 +171,21 @@ border-radius: 2px;
 }
 
 button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
+  
+  border-radius: 20px;
+
+  
+  border: 1px solid;
+  padding: 5px;
+  font-size: 3em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #d81b1b;
+  background-color: #2ebde0;
   cursor: pointer;
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #1620d8;
+  border-color: #f30909;
 }
 button:focus,
 button:focus-visible {
@@ -218,8 +213,8 @@ border-radius: 2px;
   height: 50px;
   
   outline: none;
-  color: #cf4747;
-  background: #fdf6f60e;
+  color: #12be85;
+  background: #f00e0e0e;
   cursor: pointer;
   position: relative;
   z-index: 0;
@@ -267,10 +262,11 @@ border-radius: 2px;
   position: absolute;
   width: 100%;
   height: 100%;
-  background: linear-gradient(90deg, rgba(93, 250, 3, 0.26) 0%, rgba(1, 109, 107, 0.137) 46%, rgba(14, 194, 207, 0.938) 100%);
+  background: linear-gradient(90deg, rgba(94, 226, 54, 0.26) 20%, rgba(50, 226, 50, 0.938) 100%);
   left: 0;
   top: 0;
   border-radius: 5px;
+
 }
 
 

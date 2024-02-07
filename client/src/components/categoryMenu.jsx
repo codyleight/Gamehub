@@ -43,8 +43,8 @@ function CategoryMenu() {
   };
 
   return (
-    <div className='text-center'>
-      <h2>Choose a Game Genre:</h2>
+    <div className='text-center text-light'>
+      <h2 className='text-light'>Choose a Game Genre:</h2>
       {categories.map((item) => (
         <button
           key={item._id}
