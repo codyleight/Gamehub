@@ -91,6 +91,12 @@ const resolvers = {
 
       return { token, user };
     },
+    addProduct: async (parent, args) => { //add product 
+      const product = await Product.create(args);
+      
+
+      return { product };
+    },
     addOrder: async (parent, { products }, context) => {
       if (context.user) {
         const order = new Order({ products });
