@@ -7,6 +7,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import Login from './pages/Login';
 import Signup from './pages/Signup';
 import ProductItem from './pages/ProductItem';
+import ProductAdd from './pages/ProductAdd.jsx';
 import NewGenre from './pages/NewGenre';
 
 
@@ -37,6 +38,10 @@ const router = createBrowserRouter([
       {
         path: '/products/:id',
         element: <ProductItem />
+      },
+      {
+        path: '/productadd',
+        element: <ProductAdd />
       },
       {
         path: '/newgenre',

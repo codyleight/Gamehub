@@ -50,6 +50,17 @@ export const ADD_USER = gql`
   }
 `;
 
+
+
+export const ADD_PRODUCT = gql`
+mutation AddProduct($name: String!, $description: String!, $image: String!, $price: Int!, $category: String!) {
+  addProduct(name: $name, description: $description, image: $image, price: $price, category: $category) {
+    _id
+  }
+}
+`;
+
+
 export const ADD_GENRE = gql`
  mutation addGenre(
     $name: String!

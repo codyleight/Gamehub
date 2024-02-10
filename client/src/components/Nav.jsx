@@ -13,6 +13,12 @@ export default function Nav() {
         <Link key={1} className="nav-link text-light glow-on-hover " to="/">
           Home
         </Link>,
+        <Link key={2} className="nav-link text-light glow-on-hover" to="/productadd">
+        Add Product
+      </Link>,
+      <Link key={3} className="nav-link text-light glow-on-hover" to="/newgenre">
+      Add Genre
+    </Link>,
         isLoggedIn ? (
           <span key={2} className="nav-link text-light glow-on-hover">
             Welcome, user!
@@ -30,6 +36,10 @@ export default function Nav() {
         <Link key={4} className="nav-link text-light glow-on-hover" to="">
           {/* Empty link to maintain the layout */}
         </Link>,
+
+        
+
+        
       ]}
     />
   );
