@@ -60,3 +60,15 @@ mutation AddProduct($name: String!, $description: String!, $image: String!, $pri
 }
 `;
 
+
+export const ADD_GENRE = gql`
+ mutation addGenre(
+    $name: String!
+  ) {
+    addGenre(
+      name: $name
+    ) {
+      _id
+    }
+  }
+`;
