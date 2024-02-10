@@ -7,6 +7,9 @@ import 'bootstrap/dist/css/bootstrap.css';
 import Login from './pages/Login';
 import Signup from './pages/Signup';
 import ProductItem from './pages/ProductItem';
+import NewGenre from './pages/NewGenre';
+
+
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
@@ -34,6 +37,10 @@ const router = createBrowserRouter([
       {
         path: '/products/:id',
         element: <ProductItem />
+      },
+      {
+        path: '/newgenre',
+        element: <NewGenre />
       }
     ]
   }
