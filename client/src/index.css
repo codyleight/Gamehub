@@ -2,14 +2,11 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #e71e1e;
-
   --shadow-color: #FF9E9E;
   --shadow-color-light: white;
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -28,11 +25,7 @@ a:hover {
 }
 
 .font1 {
-
   font-size: medium;
-
-
-
 }
 
 .imgedit {
@@ -50,8 +43,6 @@ a:hover {
 }
 
 body {
-
-
   background: rgb(255, 230, 0);
   background: linear-gradient(13deg, rgba(255, 230, 0, 1) 0%, rgba(130, 45, 209, 1) 41%, rgba(1, 79, 106, 1) 63%, rgba(20, 1, 38, 1) 100%);
 }
@@ -66,24 +57,15 @@ h1 {
   line-height: 1.1;
   color: #011310;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-
 }
-
-
 
 .text {
   font-size: large;
 }
 
-
-
 .hover:hover {
   transform: scale(1.1);
-
-
-
 }
-
 
 h1 {
   color: #f5e8e8;
@@ -92,16 +74,12 @@ h1 {
   font-family: "Archivo Black", "Archivo", sans-serif;
   font-weight: normal;
   display: block;
-
   text-align: center;
 }
 
 .logo-1 {
-
   animation: glowing 20s linear infinite;
 }
-
-
 
 h2 {
   font-size: 1.3rem;
@@ -119,7 +97,6 @@ span {
 .nav1 {
   border-radius: 5px;
   background: #116415;
-
 }
 
 .small-icon {
@@ -134,10 +111,7 @@ span {
 }
 
 .pic {
-
-
   transform: scale(1.4);
-
 }
 
 .space {
@@ -152,26 +126,20 @@ span {
   border: solid;
   border-color: #f4f8f7;
   border-radius: 2px;
-
 }
 
-.bg {}
+/* Modifiy later if needed */
+/* .bg {} */
 
 .bg2 {
   margin-top: 50px;
-
   border-radius: 50px;
   outline: auto;
   outline-color: #526cee;
-
-
 }
 
 button {
-
   border-radius: 20px;
-
-
   border: 1px solid;
   padding: 5px;
   font-size: 3em;
@@ -196,7 +164,6 @@ button:focus-visible {
   position: fixed;
   inset: auto 0 0 0;
   padding: 1em;
-
 }
 
 .footer2 {
@@ -210,7 +177,6 @@ button:focus-visible {
   margin-left: 15px;
   width: 80px;
   height: 50px;
-
   outline: none;
   color: #12be85;
   background: #f00e0e0e;
@@ -223,7 +189,6 @@ button:focus-visible {
 .iconsize {
   font-size: 42px;
   margin: 5px;
-
 }
 
 .glow-on-hover:before {
@@ -265,15 +230,9 @@ button:focus-visible {
   left: 0;
   top: 0;
   border-radius: 5px;
-
 }
 
-
-
-
-
-
-
+/* MOBILE FUNCTIONALITY */
 
 @keyframes glowing {
   0% {
