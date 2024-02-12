@@ -22,26 +22,27 @@ a {
   color: rgb(30, 39, 206);
   text-decoration: inherit;
 }
+
 a:hover {
   color: #535bf2;
 }
 
-.font1{
- 
+.font1 {
+
   font-size: medium;
 
-  
-  
+
+
 }
 
-.imgedit{
+.imgedit {
   border-radius: 50px;
   outline: #c00e0e;
   outline-style: double;
   outline-width: 10px;
 }
 
-.imgedit2{
+.imgedit2 {
   border-radius: 50px;
   outline: #f3eaf0;
   outline-style: double;
@@ -49,13 +50,13 @@ a:hover {
 }
 
 body {
-  
- 
-  background: rgb(255,230,0);
-  background: linear-gradient(13deg, rgba(255,230,0,1) 0%, rgba(130,45,209,1) 41%, rgba(1,79,106,1) 63%, rgba(20,1,38,1) 100%);
+
+
+  background: rgb(255, 230, 0);
+  background: linear-gradient(13deg, rgba(255, 230, 0, 1) 0%, rgba(130, 45, 209, 1) 41%, rgba(1, 79, 106, 1) 63%, rgba(20, 1, 38, 1) 100%);
 }
 
-.navbar-toggler-icon{
+.navbar-toggler-icon {
   color: #005043;
   background-color: #f1f1f1;
 }
@@ -65,22 +66,22 @@ h1 {
   line-height: 1.1;
   color: #011310;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  
+
 }
 
 
 
-.text{
+.text {
   font-size: large;
 }
 
 
 
-.hover:hover{
+.hover:hover {
   transform: scale(1.1);
-  
- 
-  
+
+
+
 }
 
 
@@ -91,78 +92,74 @@ h1 {
   font-family: "Archivo Black", "Archivo", sans-serif;
   font-weight: normal;
   display: block;
-  
+
   text-align: center;
 }
 
 .logo-1 {
-  
+
   animation: glowing 20s linear infinite;
 }
 
 
 
-h2{
-  font-size:  1.3rem;
+h2 {
+  font-size: 1.3rem;
   color: #ffffff;
 }
 
-span{
+span {
   color: #fad118;
 }
 
-.textabout{
+.textabout {
   color: #00ffd5;
 }
 
-.nav1{
+.nav1 {
   border-radius: 5px;
   background: #116415;
-  
+
 }
 
 .small-icon {
   font-size: 20px;
 }
 
-.home{
+.home {
   border-radius: 5px;
   background-color: #000000;
   outline: 3px solid rgb(1, 0, 2);
   margin-top: 1px;
 }
 
-.pic{
-  
- 
+.pic {
+
+
   transform: scale(1.4);
-  
+
 }
 
-.space{
+.space {
   margin: 120px;
 }
 
-.coolshadow{
-  background: linear-gradient(90deg, rgba(130,45,209,1) 0%, rgba(0,198,195,1) 46%, rgba(255,230,0,1) 100%);
+.coolshadow {
+  background: linear-gradient(90deg, rgba(130, 45, 209, 1) 0%, rgba(0, 198, 195, 1) 46%, rgba(255, 230, 0, 1) 100%);
   border-radius: 5px;
   outline: auto;
   outline-color: #02061b;
-border: solid;
-border-color: #f4f8f7;
-border-radius: 2px;
-  
+  border: solid;
+  border-color: #f4f8f7;
+  border-radius: 2px;
+
 }
 
-.bg{
+.bg {}
 
+.bg2 {
+  margin-top: 50px;
 
-  
-}
-
-.bg2{
- margin-top: 50px;
-  
   border-radius: 50px;
   outline: auto;
   outline-color: #526cee;
@@ -171,10 +168,10 @@ border-radius: 2px;
 }
 
 button {
-  
+
   border-radius: 20px;
 
-  
+
   border: 1px solid;
   padding: 5px;
   font-size: 3em;
@@ -184,9 +181,11 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
 }
+
 button:hover {
   border-color: #f30909;
 }
+
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
@@ -197,21 +196,21 @@ button:focus-visible {
   position: fixed;
   inset: auto 0 0 0;
   padding: 1em;
-  
+
 }
 
-.footer2{
-outline: #000;
-border: solid;
-border-color: #f4f8f7;
-border-radius: 2px;
+.footer2 {
+  outline: #000;
+  border: solid;
+  border-color: #f4f8f7;
+  border-radius: 2px;
 }
 
 .glow-on-hover {
   margin-left: 15px;
   width: 80px;
   height: 50px;
-  
+
   outline: none;
   color: #12be85;
   background: #f00e0e0e;
@@ -221,10 +220,10 @@ border-radius: 2px;
   border-radius: 10px;
 }
 
-.iconsize{
+.iconsize {
   font-size: 42px;
   margin: 5px;
-  
+
 }
 
 .glow-on-hover:before {
@@ -232,7 +231,7 @@ border-radius: 2px;
   background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
   position: absolute;
   top: -2px;
-  left:-2px;
+  left: -2px;
   background-size: 400%;
   z-index: -1;
   filter: blur(5px);
@@ -277,9 +276,17 @@ border-radius: 2px;
 
 
 @keyframes glowing {
-  0% { background-position: 0 0; }
-  50% { background-position: 400% 0; }
-  100% { background-position: 0 0; }
+  0% {
+    background-position: 0 0;
+  }
+
+  50% {
+    background-position: 400% 0;
+  }
+
+  100% {
+    background-position: 0 0;
+  }
 }
 
 @media (prefers-color-scheme: light) {
@@ -287,9 +294,11 @@ border-radius: 2px;
     color: #253e53;
     background-color: #ffffff;
   }
+
   a:hover {
     color: #747bff;
   }
+
   button {
     background-color: #f9f9f9;
   }
@@ -307,13 +316,15 @@ border-radius: 2px;
     font-size: 24px;
     margin: 2px;
   }
+
   body {
     background-color: #343a40;
   }
+
   footer {
     margin-bottom: 0;
   }
-  
+
   .content-wrapper {
     min-height: 55vh;
     background-color: #343a40;

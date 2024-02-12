@@ -34,13 +34,13 @@ const client = new ApolloClient({
 
 function App() {
   return (
-    
+
     <ApolloProvider client={client}>
 
-        <StoreProvider>
-          <Nav />
+      <StoreProvider>
+        <Nav />
         <Outlet />
-        </StoreProvider>
+      </StoreProvider>
 
     </ApolloProvider>
   );

@@ -5,15 +5,15 @@ import Cart from "../components/Cart/index.jsx";
 
 const Home = () => {
   return (
-    
+
     <div className="">
       <div className="">
-      <CategoryMenu />
-      <ProductList />
+        <CategoryMenu />
+        <ProductList />
       </div>
       <Cart />
     </div>
-  
+
   );
 };
 

@@ -10,16 +10,18 @@ import { QUERY_CATEGORIES } from '../utils/queries';
 
 function ProductAdd(props) {
   const { loading, data } = useQuery(QUERY_CATEGORIES);
-  const [formState, setFormState] = useState({ name: '',
-  description: '',
-  image: '',
-  price: 0,
-  category: '', });
+  const [formState, setFormState] = useState({
+    name: '',
+    description: '',
+    image: '',
+    price: 0,
+    category: '',
+  });
   const [addProduct] = useMutation(ADD_PRODUCT);
 
-  
+
   const handleFormSubmit = async (event) => {
-    
+
     event.preventDefault();
     console.log('Form State:', formState);
     await addProduct({
@@ -31,18 +33,18 @@ function ProductAdd(props) {
         category: formState.category, // Replace with the specific category ID
       },
 
-     
+
     });
   };
 
   const handleChange = (event) => {
     const { name, value } = event.target;
     let parsedValue = value;
-  
+
     if (name === 'price') {
       parsedValue = parseFloat(value);
     }
-  
+
     setFormState({
       ...formState,
       [name]: parsedValue,
@@ -57,12 +59,12 @@ function ProductAdd(props) {
         <div className="flex-row space-between my-2">
           <label htmlFor="name">Game Name:</label>
           <input
-  placeholder="zelda"
-  name="name"
-  type="text"
-  id="name"
-  onChange={handleChange}
-/>
+            placeholder="zelda"
+            name="name"
+            type="text"
+            id="name"
+            onChange={handleChange}
+          />
         </div>
         <div className="flex-row space-between my-2">
           <label htmlFor="description">Description: </label>
@@ -87,32 +89,32 @@ function ProductAdd(props) {
         <div className="flex-row space-between my-2">
           <label htmlFor="price">price:</label>
           <input
-  placeholder="number"
-  name="price"
-  type="number" // Change to "number"
-  id="price"
-  step="0.01"
-  onChange={handleChange}
-/>
+            placeholder="number"
+            name="price"
+            type="number" // Change to "number"
+            id="price"
+            step="0.01"
+            onChange={handleChange}
+          />
         </div>
 
         <div className="flex-row space-between my-2">
-  <label htmlFor="category">Category:</label>
-  <select name="category" id="category" onChange={handleChange}>
-    <option value="">Select a category</option>
-    {loading ? (
-      <option>Loading categories...</option>
-    ) : (
-      data.categories.map((category) => (
-        <option key={category._id} value={category._id}>
-          {category.name}
-        </option>
-      ))
-    )}
-  </select>
-</div>
+          <label htmlFor="category">Category:</label>
+          <select name="category" id="category" onChange={handleChange}>
+            <option value="">Select a category</option>
+            {loading ? (
+              <option>Loading categories...</option>
+            ) : (
+              data.categories.map((category) => (
+                <option key={category._id} value={category._id}>
+                  {category.name}
+                </option>
+              ))
+            )}
+          </select>
+        </div>
 
-        
+
         <div className="flex-row flex-end">
           <button type="submit">Submit</button>
         </div>

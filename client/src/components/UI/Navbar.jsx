@@ -4,7 +4,7 @@ export default function Nav({ links }) {
   return (
     <nav className="navbar navbar-expand-lg  ">
       <div className="container-fluid">
-        <a className="navbar-brand text-light font6"  href="/">
+        <a className="navbar-brand text-light font6" href="/">
           GamesHub
         </a>
         <button
