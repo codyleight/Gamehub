@@ -1,4 +1,3 @@
-
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
@@ -10,10 +9,7 @@ import ProductItem from './pages/ProductItem';
 import ProductAdd from './pages/ProductAdd.jsx';
 import NewGenre from './pages/NewGenre';
 
-
-
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-
 
 const router = createBrowserRouter([
   {
@@ -50,7 +46,6 @@ const router = createBrowserRouter([
     ]
   }
 ]);
-
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <RouterProvider router={router} />
