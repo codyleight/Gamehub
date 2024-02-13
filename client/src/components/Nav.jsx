@@ -33,10 +33,7 @@ export default function Nav() {
             Signup
           </Link>
         ),
-        <Link key={4} className="nav-link text-light glow-on-hover" to="">
-          {/* Empty link to maintain the layout */}
-        </Link>,
-
+        
         
 
         

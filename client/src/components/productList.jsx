@@ -44,8 +44,8 @@ function ProductList() {
   }
 
   return (
-    <div className="my-2 text-primary">
-      <h2 className='text-center'>Our Products:</h2>
+    <div className="my-2 text-warning">
+      <h2 className='text-center '>Games:</h2>
       {state.products.length ? (
         <div className="row justify-content-center">
         {filterProducts().map((product) => (

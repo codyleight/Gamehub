@@ -31,8 +31,8 @@ function Login(props) {
   };
 
   return (
-    <div className="container my-1">
-      <Link to="/signup">← Go to Signup</Link>
+    <div className="container my-1 text-center">
+      <Link className='text-warning' to="/signup">Click to Signup!</Link>
 
       <h2>Login</h2>
       <form onSubmit={handleFormSubmit}>

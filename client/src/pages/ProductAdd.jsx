@@ -51,12 +51,13 @@ function ProductAdd(props) {
     });
   };
   return (
-    <div className="container my-1">
-      <Link to="/">← Return home</Link>
+    <div className="container my-1 text-center">
+      
 
-      <h2>Add a Product/game!</h2>
-      <form onSubmit={handleFormSubmit}>
-        <div className="flex-row space-between my-2">
+      <h2 className = 'text-center'>Add a Product/game!</h2>
+      <form  className = 'text-center'
+      onSubmit={handleFormSubmit}>
+        <div className="flex-row space-between my-2 text-center">
           <label htmlFor="name">Game Name:</label>
           <input
             placeholder="zelda"

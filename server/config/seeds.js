@@ -94,7 +94,7 @@ db.once('open', async () => {
       name: 'Call of Duty',
       category: categories[4]._id,
       description: 'Ut vulputate hendrerit nibh, a placerat elit cursus interdum.',
-      image: 'zombie.png',
+      image: 'zombie.jpg',
       price: 1.99,
       quantity: 1000
     },
@@ -130,10 +130,10 @@ db.once('open', async () => {
   console.log('products seeded');
 
   await User.create({
-    firstName: 'Pamela',
-    lastName: 'Washington',
-    email: 'pamela@testmail.com',
-    password: 'password12345',
+    firstName: 'cody',
+    lastName: 'thompson',
+    email: 'test@gmail.com',
+    password: '123456',
     orders: [
       {
         products: [products[0]._id, products[0]._id, products[1]._id]
@@ -142,10 +142,10 @@ db.once('open', async () => {
   });
 
   await User.create({
-    firstName: 'Elijah',
-    lastName: 'Holt',
-    email: 'eholt@testmail.com',
-    password: 'password12345'
+    firstName: 'Bijan',
+    lastName: 'thompson',
+    email: 'bijan@gmail.com',
+    password: '123456'
   });
 
   console.log('users seeded');

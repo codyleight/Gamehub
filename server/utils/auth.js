@@ -2,7 +2,7 @@ const { GraphQLError } = require('graphql');
 require('dotenv').config();
 const jwt = require('jsonwebtoken');
 
-const secret = 'supersecreet';
+const secret = process.env.Auth_Secret;
 const expiration = '2h';
 
 module.exports = {

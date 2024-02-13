@@ -34,9 +34,9 @@
 
 .cart-closed {
   position: fixed;
-  top: -2%;
-  right: 2%;
-  font-size: 3rem;
+  top: 0%;
+  right: 2.5%;
+  font-size: 2rem;
   cursor: pointer;
   background-color: var(--secondary);
   border-radius: 50%;
@@ -46,7 +46,8 @@
 }
 
 .cart-closed:hover {
-  transform: rotate(8deg);
+
+  color: #535bf2;
 }
 
 .cart img {

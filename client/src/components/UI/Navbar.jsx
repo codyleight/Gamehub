@@ -2,7 +2,7 @@
 
 export default function Nav({ links }) {
   return (
-    <nav className="navbar navbar-expand-lg  ">
+    <nav className="navbar navbar-expand-lg bg-dark ">
       <div className="container-fluid">
         <a className="navbar-brand text-light font6" href="/">
           GamesHub
@@ -19,7 +19,7 @@ export default function Nav({ links }) {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse justify-content-sm-center" id="navbarNav">
-          <ul className="navbar-nav ms-auto mb-1 mb-lg-2 mb-sm-3  font1 text-center ">
+          <ul className="navbar-nav ms-auto text-center  paddingL">
             {links.map((link) => link)}
           </ul>
         </div>

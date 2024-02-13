@@ -30,8 +30,8 @@ function NewGenre() {
     };
 
     return (
-        <div className="container my-1">
-            <Link to="/newgenre">← Go to Login</Link>
+        <div className="container my-1 text-center">
+            
             <form onSubmit={handleFormSubmit}>
                 <div className="flex-row space-between my-2">
                     <label htmlFor="genreName">Genre Name:</label>

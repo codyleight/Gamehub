@@ -31,8 +31,8 @@ function Signup(props) {
   };
 
   return (
-    <div className="container my-1">
-      <Link to="/login">← Go to Login</Link>
+    <div className="container my-1 text-center">
+      <Link to="/login">Already have an account? Click to Login!</Link>
 
       <h2>Signup</h2>
       <form onSubmit={handleFormSubmit}>

@@ -1,6 +1,6 @@
 const { User, Product, Category, Order } = require('../models');
 const { signToken, AuthenticationError } = require('../utils/auth');
-const stripe = require('stripe')('sk_test_4eC39HqLyjWDarjtT1zdp7dc');
+const stripe = require('stripe')('sk_test_4eC39HqLyjWDarjtT1zdp7dc'); //Typically we would hide this in a .env however since it is a test stripe code it should be fine.
 
 const resolvers = {
   Query: {
