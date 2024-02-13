@@ -49,7 +49,7 @@ function ProductAdd(props) {
   };
   return (
     <div className="container my-1 text-center">
-      <h2 className='text-center'>Add a Product/game!</h2>
+      <h2 className='text-center'>Add a Game!</h2>
       <form className='text-center'
         onSubmit={handleFormSubmit}>
         <div className="flex-row space-between my-2 text-center">
@@ -73,7 +73,7 @@ function ProductAdd(props) {
           />
         </div>
         <div className="flex-row space-between my-2">
-          <label htmlFor="image">image:</label>
+          <label htmlFor="image">Image:</label>
           <input
             placeholder="your image name here"
             name="image"
@@ -83,7 +83,7 @@ function ProductAdd(props) {
           />
         </div>
         <div className="flex-row space-between my-2">
-          <label htmlFor="price">price:</label>
+          <label htmlFor="price">Price:</label>
           <input
             placeholder="number"
             name="price"
@@ -97,7 +97,7 @@ function ProductAdd(props) {
         <div className="flex-row space-between my-2">
           <label htmlFor="category">Category:</label>
           <select name="category" id="category" onChange={handleChange}>
-            <option value="">Select a category</option>
+            <option value="">Select a Category</option>
             {loading ? (
               <option>Loading categories...</option>
             ) : (
