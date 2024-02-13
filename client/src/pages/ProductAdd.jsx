@@ -6,8 +6,6 @@ import { ADD_PRODUCT } from '../utils/mutations';
 import { QUERY_CATEGORIES } from '../utils/queries';
 
 
-
-
 function ProductAdd(props) {
   const { loading, data } = useQuery(QUERY_CATEGORIES);
   const [formState, setFormState] = useState({
@@ -19,11 +17,10 @@ function ProductAdd(props) {
   });
   const [addProduct] = useMutation(ADD_PRODUCT);
 
-
   const handleFormSubmit = async (event) => {
-
     event.preventDefault();
     console.log('Form State:', formState);
+
     await addProduct({
       variables: {
         name: formState.name,
@@ -52,11 +49,9 @@ function ProductAdd(props) {
   };
   return (
     <div className="container my-1 text-center">
-      
-
-      <h2 className = 'text-center'>Add a Product/game!</h2>
-      <form  className = 'text-center'
-      onSubmit={handleFormSubmit}>
+      <h2 className='text-center'>Add a Product/game!</h2>
+      <form className='text-center'
+        onSubmit={handleFormSubmit}>
         <div className="flex-row space-between my-2 text-center">
           <label htmlFor="name">Game Name:</label>
           <input
