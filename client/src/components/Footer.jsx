@@ -15,7 +15,7 @@ export default function Footer() {
           <Link key={1} className="text-primary" to="https://github.com/bolfati">
             Bijan Olfati
           </Link> {" "}
-          <Link key={1} className="text-danger" to="https://github.com/codyleight">
+          <Link key={1} className="text-danger" to="https://github.com/Jaysahhn">
             Jason Mason
           </Link>
 </div>
