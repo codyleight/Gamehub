@@ -6,7 +6,6 @@ import Auth from '../utils/auth';
 export default function Nav() {
   const isLoggedIn = Auth.loggedIn();
 
-
   return (
     <Navbar
       links={[
@@ -14,11 +13,11 @@ export default function Nav() {
           Home
         </Link>,
         <Link key={2} className="nav-link text-light glow-on-hover" to="/productadd">
-        Add Product
-      </Link>,
-      <Link key={3} className="nav-link text-light glow-on-hover" to="/newgenre">
-      Add Genre
-    </Link>,
+          Add Product
+        </Link>,
+        <Link key={3} className="nav-link text-light glow-on-hover" to="/newgenre">
+          Add Genre
+        </Link>,
         isLoggedIn ? (
           <span key={2} className="nav-link text-light glow-on-hover">
             Welcome, user!
@@ -33,10 +32,7 @@ export default function Nav() {
             Signup
           </Link>
         ),
-        
-        
 
-        
       ]}
     />
   );
