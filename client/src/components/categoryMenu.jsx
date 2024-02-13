@@ -46,8 +46,8 @@ function CategoryMenu() {
     <div className='text-center '>
       <h2 className='text-warning'>Game Categories</h2>
       {categories.map((item) => (
-        <button 
-        className='text-warning m-2 glow-on-hover'
+        <button
+          className='text-warning m-2 glow-on-hover'
           key={item._id}
           onClick={() => {
             handleClick(item._id);
@@ -57,8 +57,8 @@ function CategoryMenu() {
         </button>
       ))}
       <button
-      className='text-warning m-2 glow-on-hover'
-      onClick={() => { handleClick('') }}>
+        className='text-warning m-2 glow-on-hover'
+        onClick={() => { handleClick('') }}>
         All
       </button>
     </div>

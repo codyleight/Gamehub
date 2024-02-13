@@ -48,17 +48,17 @@ function ProductList() {
       <h2 className='text-center '>Games:</h2>
       {state.products.length ? (
         <div className="row justify-content-center">
-        {filterProducts().map((product) => (
-          <div className="col-sm-6 col-md-4 col-lg-3">
-            <ProductItem
-              key={product._id}
-              _id={product._id}
-              image={product.image}
-              name={product.name}
-              price={product.price}
-              quantity={product.quantity}
-            />
-          </div>
+          {filterProducts().map((product) => (
+            <div className="col-sm-6 col-md-4 col-lg-3">
+              <ProductItem
+                key={product._id}
+                _id={product._id}
+                image={product.image}
+                name={product.name}
+                price={product.price}
+                quantity={product.quantity}
+              />
+            </div>
           ))}
         </div>
       ) : (
