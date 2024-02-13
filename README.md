@@ -26,7 +26,7 @@ What are the steps required to install your project? Provide a step-by-step desc
 
 [GAMESHub.com](https://gamehub-test.onrender.com/)
 
-![ScreenShot]()
+![ScreenShot](https://i.gyazo.com/0677d83f5c1acad5398f73bf858002db.jpg)
 
 ## Credits
 
