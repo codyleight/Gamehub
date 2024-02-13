@@ -2,31 +2,31 @@
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+```
+GamesHub is an aspiring project aimed to provide users with a dynamic and user-friendly platform where they can discover and purchase their favorite video games. GamesHub will offer a seamless experience for gamers, allowing them to browse through an extensive library of games and purchase their favorites to play. With a focus on simplicity and accessibility, GamesHub strives to become the go-to destination for gamers looking to explore new titles and engage with the gaming community. Join us as we embark on this exciting journey to build the ultimate gaming hub – GamesHub.
+```
 
 ## Table of Contents
 
-If your README is long, add a table of contents to make it easy for users to find what they need.
-
+```
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
 - [License](#license)
+```
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+```
+npm i -> npm run start
+```
 
 ## Usage
 
 [GAMESHub.com](https://gamehub-test.onrender.com/)
 
 ![ScreenShot](https://i.gyazo.com/0677d83f5c1acad5398f73bf858002db.jpg)
+
 
 ## Credits
 
@@ -55,6 +55,8 @@ What are the steps required to install your project? Provide a step-by-step desc
 [Jason Mason](https://github.com/Jaysahhn)
 
 ## License
+
+```
 MIT License
 
 Copyright (c) [2024] [Cody Thompson, Bijan Olfati, Jason Mason]
@@ -64,6 +66,7 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+```
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
