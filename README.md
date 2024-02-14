@@ -2,7 +2,6 @@
 
 ## Description
 
-```
 GamesHub is an aspiring project aimed to provide users with a dynamic and user-friendly platform where they can discover and purchase their favorite video games. GamesHub will offer a seamless experience for gamers, allowing them to browse through an extensive library of games and purchase their favorites to play. With a focus on simplicity and accessibility, GamesHub strives to become the go-to destination for gamers looking to explore new titles and engage with the gaming community. Join us as we embark on this exciting journey to build the ultimate gaming hub – GamesHub.
 
 User Story:
@@ -27,17 +26,12 @@ Acceptance Criteria:
 
 - After successfully purchasing the game, I should be able to navigate through the application once again.
 
-
-```
-
 ## Table of Contents
 
-```
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
 - [License](#license)
-```
 
 ## Installation
 
@@ -75,7 +69,6 @@ npm i -> npm run start
 
 ## License
 
-```
 MIT License
 
 Copyright (c) [2024] [Cody Thompson, Bijan Olfati, Jason Mason]
