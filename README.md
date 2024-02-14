@@ -4,6 +4,30 @@
 
 ```
 GamesHub is an aspiring project aimed to provide users with a dynamic and user-friendly platform where they can discover and purchase their favorite video games. GamesHub will offer a seamless experience for gamers, allowing them to browse through an extensive library of games and purchase their favorites to play. With a focus on simplicity and accessibility, GamesHub strives to become the go-to destination for gamers looking to explore new titles and engage with the gaming community. Join us as we embark on this exciting journey to build the ultimate gaming hub – GamesHub.
+
+User Story:
+
+As a gaming enthusiast, I want to discover and purchase a new game easily on GamesHub, so that I can enjoy new gaming experiences without hassle.
+
+Acceptance Criteria:
+
+- As a user, I should be able to access the GamesHub platform and easily navigate to the game discovery section.
+
+- Upon entering the game discovery section, I should see a variety of games categorized by genre.
+
+- Each game listing should display essential information such as title, cover art, and price.
+
+- I should be able to filter and search for games based on genre.
+
+- Upon choosing a genre to filter, the games with the appropriate genre will display.
+
+- I should have the option to add the game to my cart and proceed to checkout.
+
+- During the checkout process, I should be able to select payment methods, enter necessary billing information, and complete the purchase securely.
+
+- After successfully purchasing the game, .
+
+
 ```
 
 ## Table of Contents
