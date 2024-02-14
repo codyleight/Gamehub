@@ -27,7 +27,6 @@ npm i -> npm run start
 
 ![ScreenShot](https://i.gyazo.com/0677d83f5c1acad5398f73bf858002db.jpg)
 
-
 ## Credits
 
 ### Sources
@@ -41,10 +40,6 @@ npm i -> npm run start
 [React](https://react.dev/reference/react)
 
 [GraphQL](https://graphql.org/learn/)
-
-### API
-
-[API]()
 
 ### GitHub
 
