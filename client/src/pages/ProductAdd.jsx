@@ -83,7 +83,7 @@ function ProductAdd(props) {
           />
         </div>
         <div className="flex-row space-between my-2">
-          <label htmlFor="price">Price:</label>
+          <label htmlFor="price">price:</label>
           <input
             placeholder="number"
             name="price"
@@ -99,7 +99,7 @@ function ProductAdd(props) {
           <select name="category" id="category" onChange={handleChange}>
             <option value="">Select a Category</option>
             {loading ? (
-              <option>Loading categories...</option>
+              <option>Loading Categories...</option>
             ) : (
               data.categories.map((category) => (
                 <option key={category._id} value={category._id}>
