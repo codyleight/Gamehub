@@ -25,7 +25,7 @@ Acceptance Criteria:
 
 - During the checkout process, I should be able to select payment methods, enter necessary billing information, and complete the purchase securely.
 
-- After successfully purchasing the game, .
+- After successfully purchasing the game, I should be able to navigate through the application once again.
 
 
 ```
